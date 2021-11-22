@@ -1,8 +1,73 @@
 body {
+  background-color: #F1F1F1;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  left: 0;
+  z-index: 20;
+}
+
+.navbar {
+  min-height: 60px;
+}
+
+.nav-link {
+  margin-left: 10px;
+}
+
+.container {
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 10px;
+}
+
+/* Contact Page */
+.contact-heading {
+  margin: 0 0 10px 0;
+}
+
+.border-line {
+  border-top: 3px blue solid;
+  margin: 0 0 20px 0;
+  width: 50%;
+}
+
+.p-contact{ 
+  font-size: 18px;
+}
+
+.icon-para {
+  font-size: 16px;
+}
+
+.icon-social{
+  font-size: 35px;
+}
+
+.icon-linkedin {
+  color: #0A66C2;
+}
+
+.icon-fb {
+  color: #097EEB;
+}
+
+.icon-github {
+  color: #000000
+}
+
+a {
+  margin-right: 20px;
+  cursor: pointer;
 }
