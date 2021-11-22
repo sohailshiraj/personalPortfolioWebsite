@@ -17,8 +17,30 @@ a {
   z-index: 20;
 }
 
-.navbar {
+div.navbar-nav a:hover { border-bottom: 1px white solid; }
+
+.footer-wrapper {
+  
+  bottom: 0;
+}
+
+footer {
   min-height: 60px;
+  color: white;
+  padding: 15px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  right: 0;
+  width: 100% !important;
+  left: 0;
+  bottom: 0
+}
+
+.navbar {
+  min-height: 65px;
 }
 
 .nav-link {
@@ -30,6 +52,12 @@ a {
   padding: 40px;
   border-radius: 10px;
   box-shadow: 10px;
+}
+
+.home-picture{
+  width: 34px;
+  border-radius: 20px;
+  border: 2px white solid;
 }
 
 /* Contact Page */
@@ -99,3 +127,34 @@ a {
   font-size: 24px;
   font-weight: 700;
 }
+
+.contact-description {
+  font-size: 14px;
+}
+
+.border-line1 {
+  border-top: 3px blue solid;
+  margin: 0 0 20px 0;
+  width: 5%;
+}
+
+.project-tile{
+  padding: 20px;
+}
+
+.proj-img-container {
+  width: 250px;
+  height: 180px;
+}
+
+.proj-img {
+  max-width: 100%;
+  max-height:100% 
+}
+
+.proj-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
