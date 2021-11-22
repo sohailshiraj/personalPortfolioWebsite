@@ -25,10 +25,17 @@ div.navbar-nav a:hover { border-bottom: 1px white solid; }
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
   min-height: 60px;
   color: white;
   padding: 15px;
-  display: flex;
+  /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -36,7 +43,7 @@ footer {
   right: 0;
   width: 100% !important;
   left: 0;
-  bottom: 0
+  bottom: 0 */
 }
 
 .navbar {
@@ -101,8 +108,12 @@ a {
 }
 
 /* About Me Page */
-.profile-pic {
-  width: 150px
+.pic-container {
+  height: 450px;
+}
+
+.pic {
+  max-height: 100%
 }
 
 .pdetail {
@@ -138,8 +149,25 @@ a {
   width: 5%;
 }
 
+
+.skills {
+  list-style-type: square;
+  font-size: 20px;
+}
+
+.skill-point{
+  font-size: 20px;
+}
+
+.skill-progress {
+  width: 100%;
+}
+
+
+/* Projects */
 .project-tile{
   padding: 20px;
+  min-width: 250px;
 }
 
 .proj-img-container {
@@ -156,5 +184,15 @@ a {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+
+.proj-position{
+  margin-bottom: 10px;
+}
+
+.proj-date{
+  font-style: italic;
+  font-weight: 13px;
+  color: blue;
 }
 
